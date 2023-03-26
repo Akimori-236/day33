@@ -15,7 +15,7 @@ export class LogComponent implements OnChanges {
   itemCount = 0
 
   @Output()
-  onSelection = new Subject<number>()
+  onSelection = new Subject<number>
 
   ngOnChanges(changes: SimpleChanges): void {
     console.log(changes)

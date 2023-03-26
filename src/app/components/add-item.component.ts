@@ -13,7 +13,7 @@ export class AddItemComponent implements OnInit, OnChanges {
   addForm!: FormGroup
 
   @Output()
-  onNewItem = new Subject<Item>()
+  onNewItem = new Subject<Item>
 
   @Input()
   item: Item | undefined = undefined
